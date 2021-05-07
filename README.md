@@ -1,16 +1,16 @@
-## DojoChallenges
+## DojoKatas
 
-This repositary is a collection of solutions to different short coding challenges.
+This repositary is a collection of solutions to different short coding Kata's (challenges).
 The aim is to collaboratively explore different JS methods and syntax approaches.
 
 ## Repo Structure & ways of working
 
-### Adding a challenge
+### Adding a Kata
 
-If you want to add a challenge:
+If you want to add a Kata:
 
-1. Create a folder with a short description of the challenge as its name
-2. Create a `question.md` file outlining the problem (with the answer if possible)
+1. Create a folder with a short description of the Kata as its name
+2. Create a `question.md` file outlining the problem, answer and test cases
 
 ### Adding a solution
 

@@ -1,6 +1,6 @@
 // How many times does this array contain a reverse of itself?
 
-const testArray = ['xyz', 'zxy', 'zyx', 'yxz', 'xxz'];
+const testArray = ['xyz', 'zxy', 'zyx', 'yxz', 'xxz', 'zzx', 'xyz'];
 
 // Reverse function
 const reverseItem = (s) => {
@@ -22,11 +22,11 @@ const countMatches1 = () => {
 
 const countMatches2 = () => {
   let count = 0;
-  const reversedArray = testArray.map((arrayItem) => reverseItem(arrayItem))
+  const reversedArray = testArray.map((arrayItem) => reverseItem(arrayItem));
 
   reversedArray.some((item) => {
     if (testArray.includes(item)) {
-      count ++
+      count++;
     }
   });
   return count;
