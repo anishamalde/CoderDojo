@@ -16,12 +16,6 @@ const isPangram = string => {
   return Object.keys(counts).length === 26;
 };
 
-const realPangram = "The quick brown fox jumps over the laz dog";
-
-const result = isPangram(realPangram);
-
-console.log(result);
-
 module.exports = {
   isPangram,
 };
