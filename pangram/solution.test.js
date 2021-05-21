@@ -1,4 +1,4 @@
-const { isPangram } = require("./solution");
+const { isPangram } = require("./freddieSolution");
 
 describe("isPangram", () => {
   it("should recognise a pangram", () => {
