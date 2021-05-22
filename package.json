@@ -1,0 +1,25 @@
+{
+  "name": "coderdojo",
+  "version": "1.0.0",
+  "description": "This repositary is a collection of solutions to different short coding Kata's (challenges). The aim is to collaboratively explore different JS methods and syntax approaches.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --ci"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anishamalde/CoderDojo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anishamalde/CoderDojo/issues"
+  },
+  "homepage": "https://github.com/anishamalde/CoderDojo#readme",
+  "dependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3"
+  }
+}
