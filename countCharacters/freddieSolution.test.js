@@ -6,4 +6,10 @@ describe("countChars", () => {
 
     expect(countChars(testString)).toEqual({ a: 3, b: 4, c: 1 });
   });
+
+  it("should return an object of char counts", () => {
+    const testString = "";
+
+    expect(countChars(testString)).toEqual({});
+  });
 });
