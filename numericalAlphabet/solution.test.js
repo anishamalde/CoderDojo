@@ -1,4 +1,4 @@
-const { makeNumericalAlphabet } = require('./PersonsSolution');
+const  {makeNumericalAlphabet} = require('./makeNumericalAlphabet-jamie-neel');
 
 describe('makeNumericalAlphabet', () => {
   it('should find the outlier when it is an even number', () => {
