@@ -1,14 +1,14 @@
-const { countChars } = require("./freddieSolution");
+const { countChars } = require('./PersonsSolution');
 
-describe("countChars", () => {
-  it("should return an object of char counts", () => {
-    const testString = "abbbabac";
+describe('countChars', () => {
+  it('should return an object of char counts', () => {
+    const testString = 'abbbabac';
 
     expect(countChars(testString)).toEqual({ a: 3, b: 4, c: 1 });
   });
 
-  it("should return an object of char counts", () => {
-    const testString = "";
+  it('should return an object of char counts', () => {
+    const testString = '';
 
     expect(countChars(testString)).toEqual({});
   });
