@@ -11,6 +11,7 @@ If you want to add a Kata:
 
 1. Create a folder with a short description of the Kata as its name
 2. Create a `question.md` file outlining the problem, answer and test cases
+3. If possible add a test file for your solution
 
 ### Adding a solution
 
