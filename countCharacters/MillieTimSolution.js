@@ -34,7 +34,7 @@ const timeEnd = Date.now() - time;
 
 const freddieTime = Date.now();
 freddieCounter(testData + testData + testData + testData);
-const freddieTimeEnd = Date.now() - Christime;
+const freddieTimeEnd = Date.now() - freddieTime;
 
 // 1ms vs 285ms
 console.log(timeEnd, freddieTimeEnd);
